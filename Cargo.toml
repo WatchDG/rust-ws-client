@@ -1,0 +1,19 @@
+[package]
+name = "ws-client"
+version = "0.0.1"
+authors = ["WatchDG <baranov@w3m.co>"]
+license = "MIT OR Apache-2.0"
+description = "websocket client"
+homepage = "https://github.com/WatchDG/rust-ws-client"
+documentation = "https://docs.rs/ws-client"
+repository = "https://github.com/WatchDG/rust-ws-client"
+readme = "README.md"
+edition = "2018"
+exclude = [
+    ".github/**/*",
+    "src/main.rs",
+    ".gitignore"
+]
+
+[dependencies]
+ws-protocol = "0.3"
